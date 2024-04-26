@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Weather Dashboard</h1>
+     <div class="container">
+        <div class="weather-input">
+            <h3>Enter a city name</h3>
+            <input class="input" type="text" placeholder="E.g., London, Shanghai, Delhi" required>
+             <button class="search-btn">Search</button>
+             <div class="separator"></div>
+             <button class="location-btn">Use Current Location</button>
+        </div>
+        <div class="weather-data">
+            <div class="current-weather">
+                <div class="details">
+                    <h2 class="citytime">_______(__-__-____)</h2>
+                    <h4 class="temp">Temperature: ___&deg;C</h4>
+                    <h4 class="wind">Wind: ___ M/S</h4>
+                    <h4 class="humid">Humidity: __%</h4>
+                </div>
+                <div class="icon">
+                    <img  class="imgfirst" alt="weather-icon">
+                     <h4 class="imgfirsttype">___________</h4>
+                </div>
+            </div>
+            <div class="days-forecast">
+                <h2>5-Day forecast</h2>
+                <ul class="weather-cards">
+                    <li class="card">
+                        <h3 class="citytime1">(26-04-2024)</h3>
+                    <img class="imgfirst1" alt="weather-icon">
+                        <h4 class="temp1">Temp: 19.01&deg;C</h4>
+                        <h4 class="wind1">Wind: 4.31 M/S</h4>
+                        <h4 class="humid1">Humidity: 79%</h4>
+                    </li>
+                    <li class="card">
+                        <h3 class="citytime2">(26-04-2024)</h3>
+                            <img class="imgfirst2" alt="weather-icon">
+                                <h4 class="temp2">Temp: 19.01&deg;C</h4>
+                                <h4 class="wind2">Wind: 4.31 M/S</h4>
+                                <h4 class="humid2">Humidity: 79%</h4>
+                    </li>
+                    <li class="card">
+                        <h3 class="citytime3">(26-04-2024)</h3>
+                            <img class="imgfirst3" alt="weather-icon">
+                                <h4 class="temp3">Temp: 19.01&deg;C</h4>
+                                <h4 class="wind3">Wind: 4.31 M/S</h4>
+                                <h4 class="humid3">Humidity: 79%</h4>
+                    </li>
+                    <li class="card">
+                        <h3 class="citytime4">(26-04-2024)</h2>
+                            <img class="imgfirst4" alt="weather-icon">
+                                <h4 class="temp4">Temp: 19.01&deg;C</h4>
+                                <h4 class="wind4">Wind: 4.31 M/S</h4>
+                                <h4 class="humid4">Humidity: 79%</h4>
+                    </li>
+                    <li class="card">
+                        <h3 class="citytime5">(26-04-2024)</h2>
+                            <img class="imgfirst5" alt="weather-icon">
+                                <h4 class="temp5">Temp: 19.01&deg;C</h4>
+                                <h4 class="wind5">Wind: 4.31 M/S</h4>
+                                <h4 class="humid5">Humidity: 79%</h4>
+                    </li>
+                </ul>
+            </div>
+        </div>
+     </div>
+</body>
+<script src="./app.js"></script>
+</html>
